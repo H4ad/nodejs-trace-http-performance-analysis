@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-trace-http-analysis",
+  "version": "1.0.0",
+  "description": "Just a simple nodejs app to test the trace http",
+  "main": "index.js",
+  "scripts": {
+    "prof": "node --cpu-prof index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "light-my-request": "^5.9.1"
+  }
+}
